@@ -41,7 +41,7 @@ Not false is true, not true is false. This is pretty simple.
 
 If everything is a contradiction, then its opposite is nothing, because nothing contains... nothing, whereas everything contains nothing as well as everything else.
 
-Truth Table (OR) {|} | N | F | T | C
+Truth Table (OR) {\|} | N | F | T | C
 -------------------- | - | - | - | ---
 N | N | F | T | C
 F | F | F | T | C

@@ -87,9 +87,9 @@ In traditional mathematics there are what are considered two poles-- positive an
 
 In my absolutely idiotic math, in fact, there are *four poles* with a transitional state of nothingness.
 
-   |   | Vertical Poles |   
+ - | - | Vertical Poles | - 
 -- | - | ---------------- | - 
-   |   | `X` - Crossed |  
+ - | - | `X` - Crossed | -
 Horizontal Poles | `-` - Negative | `N` - No polarization | `+` - Positive
 
 When a number is polarized in one way or another, performing an operation with a polarized version of itself does not result in an inversion of itself. For example, traditionally, `-6 * -6` would be the equivalent of `6 * 6`, because "a negative times a negative equals a positive." In this system, a negative times a negative is technically still a *negative*, in the same sense that a positive times a positive is always a *positive*. This works transitively across the poles: a crossed times a crossed is a crossed number, a divergent number times a divergent number is, again, a divergent number.

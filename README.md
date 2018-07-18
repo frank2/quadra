@@ -112,8 +112,8 @@ So, technically, these would be hypothetical numbers because they are all contra
 
 ### `+1 {+} -1 = 0`
 
-Because `+` and `-` are opposing operators, the addition of two opposing numbers produces a crossed number, because energy transferrance doesn't simply disappear when throwing two things together. Instead, the opposing energy balances itself out at the fulcrum.
-
+Because `+` and `-` are opposing operators, result is a sort of cancellation of energy at the fulcrum, as `+1` and `-1` are perfectly opposed energies, resulting in nothing.
+ 
 ### `+5 {+} -2 = +3`
 
 Since `+` and `-` are opposing poles, they can still be added together to get opposing effects. For example, in traditional mathematics, 5 - 2 is 3, just as in this situation here. The same rules apply when adding `x` and `v` polarized numbers. However, answers become complicated when adding across polarities.

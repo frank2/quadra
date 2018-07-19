@@ -83,6 +83,8 @@ I think we can get to weird math now-- that was just weird boolean logic (which 
 
 Before we start with the weird math, though, we need to understand the concept of *polarization*, which is similar to polarization in traditional mathematics.
 
+### Polarity
+
 In traditional mathematics there are what are considered two poles-- positive and negative. with, weirdly, 0 not being allowed to contain any polarization, which is what always made 1's compliment so funny, because in 1's compliment of binary, there's technically a negative 0 and a positive 0.
 
 In my absolutely idiotic math, in fact, there are *four poles* with a transitional state of nothingness between all of them.
@@ -101,8 +103,11 @@ When a number is polarized in one way or another, performing an operation with a
 
 A crossed polarization is quite literal-- a hypothetical state in which the number is both positive and negative. Its opposite is divergent-- a contradiction of polarization, in which the number is polarized but not polarized. I still have no fucking clue where these in particular will lead. Nothing is still unsigned-- though not because it's impossible, but more because it's superfluous. Everything leads to nothing. `x0` is equal to `+0` because unlike other values, 0 is the same value across all poles.
 
-With that in mind, let's cover numbers and mathematics. Addition and subtraction works the same way, so long as
-you respect the polarization of numbers.
+With that in mind, let's cover numbers and mathematics.
+
+## Addition and Subtraction
+
+Addition and subtraction works the same way, so long as you respect the polarization of numbers.
 
 Let's walk through some basic addition exercises.
 
@@ -110,9 +115,9 @@ Let's walk through some basic addition exercises.
 
 So, technically, these would be hypothetical numbers because they are all contradictions. `n0` is superfluous, but `n1` is not a number, because by definition of it being 1, it's officially something, making it not nothing. You add one nothing to another nothing, and you get two nothings, even if it's nothing. You have two of them, after all! Two nothings. Which is still nothing, isn't it?
 
-### `+1 {+} -1 = 0`
+#### `+1 {+} -1 = 0`
 
-Because `+` and `-` are opposing operators, result is a sort of cancellation of energy at the fulcrum, as `+1` and `-1` are perfectly opposed energies, resulting in nothing.
+Because `+` and `-` are opposing operators, result is a sort of cancellation of energy at the fulcrum, as `+1` and `-1` are perfectly opposed energies, resulting in nothing. In traditional mathematics, this is equivalent to the statement "1 - 1 = 0," though in a really stupid and excitingly autistic way, this feels really fun, verbose and clear.
  
 ### `+5 {+} -2 = +3`
 
@@ -120,7 +125,9 @@ Since `+` and `-` are opposing poles, they can still be added together to get op
 
 ### `+5 {+} x2 {+} -7 {+} v8 {+} n4 = (n4, -2, v6)`
 
-PEMDAS rules still apply for some reason. So we can actually evaluate the problem like this.
+PEMDAS rules still apply for some reason. Why? I have no clue. I'm literally just making all of this up as I go along and spitballing what feels right. I'm trying to throw down nonsense proofs, but, let's face it folks, I'm just leading you in a circle with every "proof" I offer you.
+
+So we can actually evaluate the problem like this.
 
 ### `[[[[+5 {+} x2] {+} -7] {+} v8] {+} n4] = (n4, -2, v6)`
 
@@ -136,4 +143,26 @@ The result of `(+5, x2) {+} -7` is ultimately `(-2, x2)`, because only opposing 
 
 ### `[(-2, v6) {+} n4] = (n4, -2, v6)`
 
-Because `n4` is not technically a number, it cannot be resolved, and thus this formula cannot be resolved any further. And so, the answer to this formula is the triplet of `(n4, -2, v6)`.
+Because `n4` is not technically a number, it cannot be resolved, and thus this formula cannot be resolved any further. And so, the answer to this formula is the triplet of `(n4, -2, v6)`. Yet, of course, anything that is nothing is superfluous unless you're measuring nothing for some weird reason, so, really, the answer is `(-2, v6)`. I guess. I don't know. Again, I'm literally just throwing nonsense out here.
+
+Boy I hope you're ready for the next one.
+
+## Multiplication and Division
+
+So with multiplication and division, you can consider it iterations of subtractions or addition, dependent on the polarity of the number. Let's take a very common multiplication problem.
+
+### `+2 {*} +2 = +4`
+
+This is because `+2 {*} +2` resolves out to `+2 {+} +2`. In my stupid multiplication rules that I'm literally making up as I go along and also to mess with your head, multiplication is implicitly "take this base and add it to itself this many times." So, let's complicate things a little bit.
+
+### `+6 {*} +12 = +72`
+
+This is because this formula resolves out to `+6 {+} +6 {+} +6 {+} +6 {+} +6 {+} +6 {+} +6 {+} +6 {+} +6 {+} +6 {+} +6 {+} +6` whose result is `+72`. Now, what about with negative numbers? I have no idea. Let's wing it.
+
+### `-6 {*} -3 = 12`
+
+This is where, I guess, negative iterations come in? It's just subtraction, hahaha. Instead of stepping forwards so many times you're stepping backwards so many times. So, assuming `abs(-3)` as the number of steps, we get `-6 {+} -6 {+} -6`. However, it's supposed to be negative steps. So... okay, I guess it's subtraction then. Which would be `-6 {-} -6 {-} -6`. Stepping backwards is really weird-- you step backwards with a backwards number and you actually mean "step forwards." So, in effect, `-6 {*} -3` is just `-6 {+} +6 {+} +6`, as stepping backwards a backwards amount of times is just, like, a moonwalk I guess. You're still going forward, dude.
+
+It's just an off-by-one anyway, 'cause you did the wrong operation, ya doofus. What you're looking for is probably `-6 {*} *3*`, which gives you `-18`, which is so much more logical, right? Because `-6 {+} -6 {+} -6` is `-18`, since no polarity is inverted.
+
+I'm going to resume this later when my brain stops hurting.

@@ -216,4 +216,18 @@ On one hand, let's assume our 0 is actually *b*. So we're looking at answering h
 
 Conversely, what happens when you plug in *P* as the 0 value? Well, looking at what happens, you get something like `+0 {/} +5`, which essentially asks "how many iterations does it take for base +5 to get to product 0?" Well, the answer is 0-- since 0 is implicitly part of the formula, you've already reached 0 by starting the formula to begin with. Hence, dividing 0 by anything will simply result in 0, but dividing anything by 0 will result in an infinite value skewed in polarity toward whichever rules I make up for polarity or whatever. I don't know. I'm literally just making things up.
 
-Anyway long story short I really need summation functionality under the hood.
+Anyway long story short I really need summation functionality under the hood. Is everything seriously just a function of addition and subtraction with functions applied? What the heck.
+
+So what does the division function do when it can't actually reach 0? Well, when it crosses the polarity boundary without reaching 0, it just... gives you the next best number. Kind of like real math. You know, you divide whole numbers and you magically get a remainder. Though technically `{/}` and `{%}` perform the same operation-- you're just getting a different perspective. So perhaps the remainder is the divergent product and the answer is the traditionally polarized result.
+
+So I suppose it's time to forget what I said, because guess what? If this is the same operation performed from different perspectives, then the traditional operators are simply different perspectives of the same equation. Division is perhaps more along the following lines. Whereas `b {*} i` produces *P*, *P* divided by either *b* or *i* technically produces two answers. So, while the multiplication formula can be inverted to produce one of the answers, it doesn't take into account that you technically get two answers out of the process with regards to integer-based mathematics. But `{/}` and `{%}` correspond well to what we know about current math, so what operator should be chosen? Maybe `{$}`?
+
+Let's suss it out.
+
+### `+5 {/} +3 = +1`
+### `+5 {%} +3 = +2`
+### `+5 {$} +3 = (+1, v2)`
+
+Of course with float-based mathematics this sort of all goes away. `+5.0 {/} +2.0 = +2.5`... I think. I don't know, we'll just have to see when we get there. Either way, this should provide the building blocks for now.
+
+If this makes sense to you, wow. Hats off.

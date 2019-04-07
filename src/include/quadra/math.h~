@@ -1,0 +1,10 @@
+#ifndef __QUADRA_MATH_H
+#define __QUADRA_MATH_H
+
+#ifdef __cplusplus
+extern "C"
+{
+#endif
+
+#include <quadra/logic.h>
+#include <quadra/qubit.h>

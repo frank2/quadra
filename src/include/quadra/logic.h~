@@ -1,0 +1,7 @@
+#ifndef __QUBIT_LOGIC_H
+#define __QUBIT_LOGIC_H
+
+#ifdef __cplusplus
+extern "C"
+{
+#endif

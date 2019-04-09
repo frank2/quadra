@@ -28,49 +28,51 @@ Whatever's going on in this language I have no clue, but it's really fun to writ
 
 Truth Table (NOT) | {~}
 ----------------- | ---
-N | C
-F | T
-T | F
-C | N
+**N** | C
+**F** | T
+**T** | F
+**C** | N
 
 The NOT table seems to work exactly how you'd expect it to.
 
-The opposite of nothing is effectively everything. Yet, everything is a contradiction-- it contains true as well as false by definition, not to mention what's in everything is also nothing, so the opposite of nothing then is everything, which is a contradiction, as it also contains nothing.
+The inverse of nothing is effectively everything. Yet, everything is a contradiction-- it contains true as well as false by definition, not to mention what's in everything is also nothing, so the opposite of nothing then is everything, which is a contradiction, as it also contains nothing.
 
 Not false is true, not true is false. This is pretty simple.
 
-If everything is a contradiction, then its opposite is nothing, because nothing contains... nothing, whereas everything contains nothing as well as everything else.
+Whereas the concept of everything is a contradiction (lol), the inverted concept of everything is technically nothing. That's to be a total didactic dumbass and simply restate not two paragraphs ago: the inverse of everything is effectively nothing.
 
-Truth Table (OR) {\|} | N | F | T | C
+...wait, can you even negate the concept of "everything"? That's still tripping me up. I have no clue why.
+
+Truth Table (OR) {\|} | **N** | **F** | **T** | **C**
 -------------------- | - | - | - | ---
-N | N | F | T | C
-F | F | F | T | C
-T | T | T | T | C
-C | C | C | C | C
+**N** | N | F | T | C
+**F** | F | F | T | C
+**T** | T | T | T | C
+**C** | C | C | C | C
 
-Nothing or something is always that something. as when something isn't there, that's only when you know it's nothing. But nothing is, in fact, something-- the inversion of a contradiction, which is nothing, which is itself a contradiction, but from a different perspective.
+Nothing or something is always that something. as when something isn't there, that's only when you know it's nothing. But nothing is, in fact, something-- the inversion of a contradiction, which is nothing, which is itself a contradiction, but from a different perspective. Syllables, right? Wow.
 
-False or false is false, false or false is true, but false or a contradiction is a contradiction, because a contradiction is simultaneously false and true.
+False or false is false, false or true is true, but false or a contradiction is a contradiction, because a contradiction is simultaneously false and true.
 
 True or nothing is true, true or false is true, true or true is true, and true or a contradiction is a contradiction.
 
 Anything or a contradiction is always a contradiction.
 
-Truth Table (AND) {&} | N | F | T | C
+Truth Table (AND) {&} | **N** | **F** | **T** | **C**
 --------------------- | - | - | - | ---
-N | N | F | T | C
-F | F | F | F | C
-T | T | F | T | C
-C | C | C | C | C
+**N** | N | F | T | C
+**F** | F | F | F | C
+**T** | T | F | T | C
+**C** | C | C | C | C
 
 If you have nothing and something, it's always that something, in the same sense that a contradiction and something is always a contradiction. The traditional boolean truth table is untouched.
 
-Truth Table (XOR) {x} | N | F | T | C
+Truth Table (XOR) {x} | **N** | **F** | **T** | **C**
 --------------------- | - | - | - | ---
-N | N | F | T | C
-F | F | N | T | T
-T | T | T | N | F
-C | C | T | F | N
+**N** | N | F | T | C
+**F** | F | N | T | T
+**T** | T | T | N | F
+**C** | C | T | F | N
 
 The "exclusive-or" table is pretty much the same, with exclusion being taken into account with regards to
 contradictions and nothingness.
